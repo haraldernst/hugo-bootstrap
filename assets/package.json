@@ -1,0 +1,10 @@
+{
+  "name": "bootstrap",
+  "version": "5.3.3",
+  "description": "bootstrap sass",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
