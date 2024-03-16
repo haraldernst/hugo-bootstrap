@@ -7,3 +7,8 @@ HUGO theme with Bootstrap CSS
 ## Installation
 
 ## Configuration
+
+## Example site
+
+Run example site from the inside the theme:  
+`$  hugo server --source exampleSite/`

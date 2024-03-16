@@ -5,7 +5,8 @@
         </div>
     </div>
     <div class="row">
-        {{ range site.RegularPages.Limit 3 }}
+        {{ $posts := (sort (where $.Site.Pages "Section" "posts") ".Params.Weight" "desc") }}
+        {{ range $posts.Limit 3 }}
             <div class="col-12 col-lg-4">
                 <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
                 {{ .Summary }}
