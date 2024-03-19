@@ -8,6 +8,8 @@ HUGO theme with Bootstrap CSS
 
 ## Configuration
 
+tests
+
 ## Example site
 
 Run example site from the inside the theme:  
