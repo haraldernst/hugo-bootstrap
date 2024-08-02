@@ -80,9 +80,12 @@ fabric.properties
 ### Hugo template
 # Generated files by hugo
 /public/
-/exampleSite/public/
 /resources/_gen/
 /assets/jsconfig.json
+
+/exampleSite/public/
+/exampleSite/resources/_gen/
+
 hugo_stats.json
 
 # Executable may be added to repository
